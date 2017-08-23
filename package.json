@@ -1,0 +1,19 @@
+{
+  "name": "@plesk/stylelint-config",
+  "version": "0.0.1",
+  "description": "Plesk Stylelint Config",
+  "main": "index.js",
+  "files": [
+    "src",
+    "index.js"
+  ],
+  "dependencies": {
+    "stylelint": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plesk/stylelint-config.git"
+  },
+  "author": "Alexey Sinko",
+  "license": "Apache-2.0"
+}
