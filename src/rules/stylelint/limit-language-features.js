@@ -95,7 +95,7 @@ module.exports = {
     /* Declaration block */
 
     // Limit the number of declaration within single line declaration blocks.
-    // 'declaration-block-single-line-max-declarations': null,
+    'declaration-block-single-line-max-declarations': 1,
 
 
     /* Selector */
@@ -125,7 +125,7 @@ module.exports = {
     // 'selector-max-compound-selectors': null,
 
     // Limit the number of adjacent empty lines within selectors.
-    // 'selector-max-empty-lines': null,
+    'selector-max-empty-lines': 0,
 
     // Limit the number of id selectors in a selector.
     // 'selector-max-id': null,

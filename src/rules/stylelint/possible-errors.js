@@ -5,100 +5,102 @@ module.exports = {
     /* Color */
 
     // Disallow invalid hex colors.
-    // 'color-no-invalid-hex': null,
+    'color-no-invalid-hex': true,
 
 
     /* Font family */
 
     // Disallow duplicate font family names.
-    // 'font-family-no-duplicate-names': null,
+    'font-family-no-duplicate-names': true,
 
 
     /* Function */
 
     // Disallow an unspaced operator within calc functions.
-    // 'function-calc-no-unspaced-operator': null,
+    'function-calc-no-unspaced-operator': true,
 
     // Disallow direction values in linear-gradient() calls that are not valid according to the standard syntax.
-    // 'function-linear-gradient-no-nonstandard-direction': null,
+    'function-linear-gradient-no-nonstandard-direction': true,
 
 
     /* String */
 
     // Disallow (unescaped) newlines in strings.
-    // 'string-no-newline': null,
+    'string-no-newline': true,
 
 
     /* Unit */
 
     // Disallow unknown units.
-    // 'unit-no-unknown': null,
+    'unit-no-unknown': true,
 
 
     /* Shorthand property */
 
     // Disallow redundant values in shorthand properties.
-    // 'shorthand-property-no-redundant-values': null,
+    'shorthand-property-no-redundant-values': true,
 
 
     /* Property */
 
     // Disallow unknown properties.
-    // 'property-no-unknown': null,
+    'property-no-unknown': true,
 
 
     /* Keyframe declaration */
 
     // Disallow !important within keyframe declarations.
-    // 'keyframe-declaration-no-important': null,
+    'keyframe-declaration-no-important': true,
 
 
     /* Declaration block */
 
     // Disallow duplicate properties within declaration blocks.
-    // 'declaration-block-no-duplicate-properties': null,
+    'declaration-block-no-duplicate-properties':  [true, {
+        ignore: ['consecutive-duplicates-with-different-values'],
+    }],
 
     // Disallow longhand properties that can be combined into one shorthand property.
-    // 'declaration-block-no-redundant-longhand-properties': null,
+    'declaration-block-no-redundant-longhand-properties': true,
 
     // Disallow shorthand properties that override related longhand properties within declaration blocks.
-    // 'declaration-block-no-shorthand-property-overrides': null,
+    'declaration-block-no-shorthand-property-overrides': true,
 
 
     /* Block */
 
     // Disallow empty blocks.
-    // 'block-no-empty': null,
+    'block-no-empty': true,
 
 
     /* Selector */
 
     // Disallow unknown pseudo-class selectors.
-    // 'selector-pseudo-class-no-unknown': null,
+    'selector-pseudo-class-no-unknown': true,
 
     // Disallow unknown pseudo-element selectors.
-    //'selector-pseudo-element-no-unknown': null,
+    'selector-pseudo-element-no-unknown': true,
 
     // Disallow unknown type selectors.
-    // 'selector-type-no-unknown': null,
+    'selector-type-no-unknown': true,
 
 
     /* Media feature */
 
     // Disallow unknown media feature names.
-    // 'media-feature-name-no-unknown': null,
+    'media-feature-name-no-unknown': true,
 
 
     /* At-rule */
 
     // Disallow unknown at-rules.
-    // 'at-rule-no-unknown': null,
+    'at-rule-no-unknown': true,
 
 
     /* Comment */
 
     // Disallow empty comments.
-    // 'comment-no-empty': null,
+    'comment-no-empty': true,
 
 
     /* General / Sheet */
@@ -110,16 +112,16 @@ module.exports = {
     // 'no-descending-specificity': null,
 
     // Disallow duplicate selectors.
-    // 'no-duplicate-selectors': null,
+    'no-duplicate-selectors': true,
 
     // Disallow empty sources.
-    // 'no-empty-source': null,
+    'no-empty-source': true,
 
     // Disallow extra semicolons.
-    // 'no-extra-semicolons': null,
+    'no-extra-semicolons': true,
 
     // Disallow double-slash comments (//...) which are not supported by CSS.
-    // 'no-invalid-double-slash-comments': null,
+    'no-invalid-double-slash-comments': true,
 
     // Disallow unknown animations.
     // 'no-unknown-animations': null,

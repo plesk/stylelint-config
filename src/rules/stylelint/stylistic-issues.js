@@ -5,16 +5,16 @@ module.exports = {
     /* Color */
 
     // Specify lowercase or uppercase for hex colors (Autofixable).
-    // 'color-hex-case': null,
+    'color-hex-case': 'lower',
 
     // Specify short or long notation for hex colors.
-    // 'color-hex-length': null,
+    'color-hex-length': 'short',
 
 
     /* Font family */
 
     // Specify whether or not quotation marks should be used around font family names.
-    // 'font-family-name-quotes': null,
+    'font-family-name-quotes': 'always-where-recommended',
 
 
     /* Font weight */
@@ -26,61 +26,61 @@ module.exports = {
     /* Function */
 
     // Require a newline or disallow whitespace after the commas of functions.
-    // 'function-comma-newline-after': null,
+    'function-comma-newline-after': 'always-multi-line',
 
     // Require a newline or disallow whitespace before the commas of functions.
     // 'function-comma-newline-before': null,
 
     // Require a single space or disallow whitespace after the commas of functions.
-    // 'function-comma-space-after': null,
+    'function-comma-space-after': 'always-single-line',
 
     // Require a single space or disallow whitespace before the commas of functions.
-    // 'function-comma-space-before': null,
+    'function-comma-space-before': 'never',
 
     // Limit the number of adjacent empty lines within functions.
-    // 'function-max-empty-lines': null,
+    'function-max-empty-lines': 0,
 
     // Specify lowercase or uppercase for function names.
-    // 'function-name-case': null,
+    'function-name-case': 'lower',
 
     // Require a newline or disallow whitespace on the inside of the parentheses of functions.
-    // 'function-parentheses-newline-inside': null,
+    'function-parentheses-newline-inside': 'always-multi-line',
 
     // Require a single space or disallow whitespace on the inside of the parentheses of functions.
-    // 'function-parentheses-space-inside': null,
+    'function-parentheses-space-inside': 'never-single-line',
 
     // Require or disallow quotes for urls.
-    // 'function-url-quotes': null,
+    'function-url-quotes': 'always',
 
     // Require or disallow whitespace after functions.
-    // 'function-whitespace-after': null,
+    'function-whitespace-after': 'always',
 
 
     /* Number */
 
     // Require or disallow a leading zero for fractional numbers less than 1.
-    // 'number-leading-zero': null,
+    'number-leading-zero': 'always',
 
     // Disallow trailing zeros in numbers.
-    // 'number-no-trailing-zeros': null,
+    'number-no-trailing-zeros': true,
 
 
     /* String */
 
     // Specify single or double quotes around strings.
-    // 'string-quotes': null,
+    'string-quotes': 'double',
 
 
     /* Length */
 
     // Disallow units for zero lengths.
-    // 'length-zero-no-unit': null,
+    'length-zero-no-unit': true,
 
 
     /* Unit */
 
     // Specify lowercase or uppercase for units.
-    // 'unit-case': null,
+    'unit-case': 'lower',
 
 
     /* Value */
@@ -92,145 +92,163 @@ module.exports = {
     /* Value list */
 
     // Require a newline or disallow whitespace after the commas of value lists.
-    // 'value-list-comma-newline-after': null,
+    'value-list-comma-newline-after': 'always-multi-line',
 
     // Require a newline or disallow whitespace before the commas of value lists.
     // 'value-list-comma-newline-before': null,
 
     // Require a single space or disallow whitespace after the commas of value lists.
-    // 'value-list-comma-space-after': null,
+    'value-list-comma-space-after': 'always-single-line',
 
     // Require a single space or disallow whitespace before the commas of value lists.
-    // 'value-list-comma-space-before': null,
+    'value-list-comma-space-before': 'never',
 
     // Limit the number of adjacent empty lines within value lists.
-    // 'value-list-max-empty-lines': null,
+    'value-list-max-empty-lines': 0,
 
 
     /* Custom property */
 
     // Require or disallow an empty line before custom properties (Autofixable).
-    // 'custom-property-empty-line-before': null,
+    'custom-property-empty-line-before': ['always', {
+        except: [
+            'after-custom-property',
+            'first-nested',
+        ],
+        ignore: [
+            'after-comment',
+            'inside-single-line-block',
+        ],
+    }],
 
 
     /* Property */
 
     // Specify lowercase or uppercase for properties.
-    // 'property-case': null,
+    'property-case': 'lower',
 
 
     /* Declaration */
 
     // Require a single space or disallow whitespace after the bang of declarations.
-    // 'declaration-bang-space-after': null,
+    'declaration-bang-space-after': 'never',
 
     // Require a single space or disallow whitespace before the bang of declarations.
-    // 'declaration-bang-space-before': null,
+    'declaration-bang-space-before': 'always',
 
     // Require a newline or disallow whitespace after the colon of declarations.
-    // 'declaration-colon-newline-after': null,
+    'declaration-colon-newline-after': 'always-multi-line',
 
     // Require a single space or disallow whitespace after the colon of declarations.
-    // 'declaration-colon-space-after': null,
+    'declaration-colon-space-after': 'always-single-line',
 
     // Require a single space or disallow whitespace before the colon of declarations.
-    // 'declaration-colon-space-before': null,
+    'declaration-colon-space-before': 'never',
 
     // Require or disallow an empty line before declarations (Autofixable).
-    // 'declaration-empty-line-before': null,
+    'declaration-empty-line-before': ['always', {
+        except: [
+            'after-declaration',
+            'first-nested',
+        ],
+        ignore: [
+            'after-comment',
+            'inside-single-line-block',
+        ],
+    }],
 
 
     /* Declaration block */
 
     // Require a newline or disallow whitespace after the semicolons of declaration blocks.
-    // 'declaration-block-semicolon-newline-after': null,
+    'declaration-block-semicolon-newline-after': 'always-multi-line',
 
     // Require a newline or disallow whitespace before the semicolons of declaration blocks.
     // 'declaration-block-semicolon-newline-before': null,
 
     // Require a single space or disallow whitespace after the semicolons of declaration blocks.
-    // 'declaration-block-semicolon-space-after': null,
+    'declaration-block-semicolon-space-after': 'always-single-line',
 
     // Require a single space or disallow whitespace before the semicolons of declaration blocks.
-    // 'declaration-block-semicolon-space-before': null,
+    'declaration-block-semicolon-space-before': 'never',
 
     // Require or disallow a trailing semicolon within declaration blocks.
-    // 'declaration-block-trailing-semicolon': null,
+    'declaration-block-trailing-semicolon': 'always',
 
 
     /* Block */
 
     // Require or disallow an empty line before the closing brace of blocks.
-    // 'block-closing-brace-empty-line-before': null,
+    'block-closing-brace-empty-line-before': 'never',
 
     // Require a newline or disallow whitespace after the closing brace of blocks.
-    // 'block-closing-brace-newline-after': null,
+    'block-closing-brace-newline-after': 'always',
 
     // Require a newline or disallow whitespace before the closing brace of blocks.
-    // 'block-closing-brace-newline-before': null,
+    'block-closing-brace-newline-before': 'always-multi-line',
 
     // Require a single space or disallow whitespace after the closing brace of blocks.
     // 'block-closing-brace-space-after': null,
 
     // Require a single space or disallow whitespace after the closing brace of blocks.
-    // 'block-closing-brace-space-before': null,
+    'block-closing-brace-space-before': 'always-single-line',
 
     // Require a newline after the opening brace of blocks.
-    // 'block-opening-brace-newline-after': null,
+    'block-opening-brace-newline-after': 'always-multi-line',
 
     // Require a newline or disallow whitespace before the opening brace of blocks.
     // 'block-opening-brace-newline-before': null,
 
     // Require a single space or disallow whitespace after the opening brace of blocks.
-    // 'block-opening-brace-space-after': null,
+    'block-opening-brace-space-after': 'always-single-line',
 
     // Require a single space or disallow whitespace before the opening brace of blocks.
-    // 'block-opening-brace-space-before': null,
+    'block-opening-brace-space-before': 'always',
 
 
     /* Selector */
 
     // Require a single space or disallow whitespace on the inside of the brackets within attribute selectors.
-    // 'selector-attribute-brackets-space-inside': null,
+    'selector-attribute-brackets-space-inside': 'never',
 
     // Require a single space or disallow whitespace on the inside of the brackets within attribute selectors.
-    // 'selector-attribute-operator-space-after': null,
+    'selector-attribute-operator-space-after': 'never',
 
     // Require a single space or disallow whitespace before operators within attribute selectors.
-    // 'selector-attribute-operator-space-before': null,
+    'selector-attribute-operator-space-before': 'never',
 
     // Require a single space or disallow whitespace before operators within attribute selectors.
     // 'selector-attribute-quotes': null,
 
     // Require a single space or disallow whitespace after the combinators of selectors.
-    // 'selector-combinator-space-after': null,
+    'selector-combinator-space-after': 'always',
 
     // Require a single space or disallow whitespace before the combinators of selectors.
-    // 'selector-combinator-space-before': null,
+    'selector-combinator-space-before': 'always',
 
     // Disallow non-space characters for descendant combinators of selectors.
-    // 'selector-descendant-combinator-no-non-space': null,
+    'selector-descendant-combinator-no-non-space': true,
 
     // Specify lowercase or uppercase for pseudo-class selectors.
-    // 'selector-pseudo-class-case': null,
+    'selector-pseudo-class-case': 'lower',
 
     // Require a single space or disallow whitespace on the inside of the parentheses within pseudo-class selectors.
-    // 'selector-pseudo-class-parentheses-space-inside': null,
+    'selector-pseudo-class-parentheses-space-inside': 'never',
 
     // Specify lowercase or uppercase for pseudo-element selectors.
-    // 'selector-pseudo-element-case': null,
+    'selector-pseudo-element-case': lower,
 
     // Specify single or double colon notation for applicable pseudo-elements.
-    // 'selector-pseudo-element-colon-notation': null,
+    'selector-pseudo-element-colon-notation': 'double',
 
     // Specify lowercase or uppercase for type selector.
-    // 'selector-type-case': null,
+    'selector-type-case': 'lower',
 
 
     /* Selector list */
 
     // Require a newline or disallow whitespace after the commas of selector lists.
-    // 'selector-list-comma-newline-after': null,
+    'selector-list-comma-newline-after': 'always',
 
     // Require a newline or disallow whitespace before the commas of selector lists.
     // 'selector-list-comma-newline-before': null,
@@ -239,67 +257,76 @@ module.exports = {
     // 'selector-list-comma-space-after': null,
 
     // Require a single space or disallow whitespace before the commas of selector lists.
-    // 'selector-list-comma-space-before': null,
+    'selector-list-comma-space-before': 'never',
 
 
     /* Rule */
 
     // Require or disallow an empty line before rules.
-    // 'rule-empty-line-before': null,
+    'rule-empty-line-before': ['always-multi-line', {
+        except: ['first-nested'],
+        ignore: ['after-comment'],
+    }],
 
 
     /* Media feature */
 
     // Require a single space or disallow whitespace after the colon in media features.
-    // 'media-feature-colon-space-after': null,
+    'media-feature-colon-space-after': 'always',
 
     // Require a single space or disallow whitespace before the colon in media features.
-    // 'media-feature-colon-space-before': null,
+    'media-feature-colon-space-before': 'never',
 
     // Specify lowercase or uppercase for media feature names.
-    // 'media-feature-name-case': null,
+    'media-feature-name-case': 'lower',
 
     // Require a single space or disallow whitespace on the inside of the parentheses within media features.
-    // 'media-feature-parentheses-space-inside': null,
+    'media-feature-parentheses-space-inside': 'never',
 
     // Require a single space or disallow whitespace after the range operator in media features.
-    // 'media-feature-range-operator-space-after': null,
+    'media-feature-range-operator-space-after': 'always',
 
     // Require a single space or disallow whitespace after the range operator in media features.
-    // 'media-feature-range-operator-space-before': null,
+    'media-feature-range-operator-space-before': 'always',
 
 
     /* Media query list */
 
     // Require a newline or disallow whitespace after the commas of media query lists.
-    // 'media-query-list-comma-newline-after': null,
+    'media-query-list-comma-newline-after': 'always-multi-line',
 
     // Require a newline or disallow whitespace before the commas of media query lists.
     // 'media-query-list-comma-newline-before': null,
 
     // Require a single space or disallow whitespace after the commas of media query lists.
-    // 'media-query-list-comma-space-after': null,
+    'media-query-list-comma-space-after': 'always-single-line',
 
     // Require a single space or disallow whitespace before the commas of media query lists.
-    // 'media-query-list-comma-space-before': null,
+    'media-query-list-comma-space-before': 'never',
 
 
     /* At-rule */
 
     // Require or disallow an empty line before at-rules (Autofixable).
-    // 'at-rule-empty-line-before': null,
+    'at-rule-empty-line-before': ['always', {
+        except: [
+            'blockless-after-same-name-blockless',
+            'first-nested',
+        ],
+        ignore: ['after-comment'],
+    }],
 
     // Specify lowercase or uppercase for at-rules names (Autofixable).
-    // 'at-rule-name-case': null,
+    'at-rule-name-case': 'lower',
 
     // Require a newline after at-rule names.
     // 'at-rule-name-newline-after': null,
 
     // Require a single space after at-rule names.
-    // 'at-rule-name-space-after': null,
+    'at-rule-name-space-after': 'always-single-line',
 
     // Require a newline after the semicolon of at-rules.
-    // 'at-rule-semicolon-newline-after': null,
+    'at-rule-semicolon-newline-after': 'always',
 
     // Require a single space or disallow whitespace before the semicolons of at rules.
     // 'at-rule-semicolon-space-before': null,
@@ -308,26 +335,29 @@ module.exports = {
     /* Comment */
 
     // Require or disallow an empty line before comments (Autofixable).
-    // 'comment-empty-line-before': null,
+    'comment-empty-line-before': ['always', {
+        except: ['first-nested'],
+        ignore: ['stylelint-commands'],
+    }],
 
     // Require or disallow whitespace on the inside of comment markers.
-    // 'comment-whitespace-inside': null,
+    'comment-whitespace-inside': 'always',
 
 
     /* General / Sheet */
 
     // Specify indentation (Autofixable).
-    // 'indentation': null,
+    'indentation': 4,
 
     // Limit the number of adjacent empty lines.
-    // 'max-empty-lines': null,
+    'max-empty-lines': 1,
 
     // Limit the length of a line.
     // 'max-line-length': null,
 
     // Disallow end-of-line whitespace.
-    // 'no-eol-whitespace': null,
+    'no-eol-whitespace': true,
 
     // Disallow end-of-line whitespace.
-    'no-missing-end-of-source-newline': null,
+    'no-missing-end-of-source-newline': true,
 };
