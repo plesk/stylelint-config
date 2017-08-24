@@ -236,7 +236,7 @@ module.exports = {
     'selector-pseudo-class-parentheses-space-inside': 'never',
 
     // Specify lowercase or uppercase for pseudo-element selectors.
-    'selector-pseudo-element-case': lower,
+    'selector-pseudo-element-case': 'lower',
 
     // Specify single or double colon notation for applicable pseudo-elements.
     'selector-pseudo-element-colon-notation': 'double',

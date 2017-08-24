@@ -10,6 +10,12 @@
   "dependencies": {
     "stylelint": "^8.0.0"
   },
+  "devDependencies": {
+    "@plesk/eslint-config": "0.0.2"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/plesk/stylelint-config.git"
