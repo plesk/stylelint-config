@@ -1,6 +1,6 @@
 {
   "name": "@plesk/stylelint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Plesk Stylelint Config",
   "main": "index.js",
   "files": [
@@ -11,7 +11,7 @@
     "stylelint": "^8.0.0"
   },
   "devDependencies": {
-    "@plesk/eslint-config": "0.0.2"
+    "@plesk/eslint-config": "0.0.4"
   },
   "scripts": {
     "test": "eslint ."

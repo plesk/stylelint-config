@@ -59,7 +59,7 @@ module.exports = {
     /* Custom property */
 
     // Specify a pattern for custom properties.
-    //'custom-property-pattern': null,
+    // 'custom-property-pattern': null,
 
 
     /* Property */

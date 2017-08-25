@@ -347,7 +347,7 @@ module.exports = {
     /* General / Sheet */
 
     // Specify indentation (Autofixable).
-    'indentation': 4,
+    indentation: 4,
 
     // Limit the number of adjacent empty lines.
     'max-empty-lines': 1,

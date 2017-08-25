@@ -56,7 +56,7 @@ module.exports = {
     /* Declaration block */
 
     // Disallow duplicate properties within declaration blocks.
-    'declaration-block-no-duplicate-properties':  [true, {
+    'declaration-block-no-duplicate-properties': [true, {
         ignore: ['consecutive-duplicates-with-different-values'],
     }],
 
