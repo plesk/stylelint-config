@@ -1,6 +1,6 @@
 {
   "name": "@plesk/stylelint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Plesk Stylelint Config",
   "main": "index.js",
   "files": [
