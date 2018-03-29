@@ -8,10 +8,10 @@
     "index.js"
   ],
   "dependencies": {
-    "stylelint": "^8.0.0"
+    "stylelint": "^9.1.3"
   },
   "devDependencies": {
-    "@plesk/eslint-config": "0.0.4"
+    "@plesk/eslint-config": "0.0.7"
   },
   "scripts": {
     "test": "eslint ."
