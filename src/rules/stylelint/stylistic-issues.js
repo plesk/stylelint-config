@@ -126,7 +126,9 @@ module.exports = {
     /**
      * Specify lowercase or uppercase for keywords values.
      */
-    'value-keyword-case': 'lower',
+    'value-keyword-case': ['lower', {
+        ignoreProperties: ['unicode-range'],
+    }],
 
 
     /* Value list */
