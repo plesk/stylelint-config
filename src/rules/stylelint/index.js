@@ -1,8 +1,8 @@
 /**
- * @see {@link https://stylelint.io/user-guide/rules/ | Stylelint Rules}
+ * @see {@link https://stylelint.io/user-guide/rules/list/ | Stylelint Rules}
  */
 module.exports = {
-    ...require('./possible-errors'),
-    ...require('./limit-language-features'),
+    ...require('./avoid-errors'),
+    ...require('./enforce-conventions'),
     ...require('./stylistic-issues'),
 };

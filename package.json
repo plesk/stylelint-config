@@ -1,24 +1,24 @@
 {
   "name": "@plesk/stylelint-config",
-  "version": "0.0.6",
-  "description": "Plesk Stylelint Config",
+  "version": "1.0.0",
+  "description": "Plesk shareable config for stylelint",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plesk/stylelint-config.git"
+  },
   "main": "index.js",
   "files": [
     "src",
     "index.js"
   ],
-  "dependencies": {
-    "stylelint": "^12.0.0"
+  "scripts": {
+    "test": "eslint ."
   },
   "devDependencies": {
     "@plesk/eslint-config": "^1.1.0"
   },
-  "scripts": {
-    "test": "eslint ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/plesk/stylelint-config.git"
+  "peerDependencies": {
+    "stylelint": "^14.0.0"
   },
   "author": "Alexey Sinko",
   "license": "Apache-2.0"
