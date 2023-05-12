@@ -5,19 +5,24 @@ Stylelint configuration for Plesk projects
 [![NPM version](https://img.shields.io/npm/v/@plesk/stylelint-config.svg)](https://www.npmjs.org/package/@plesk/stylelint-config)
 [![NPM Downloads](https://img.shields.io/npm/dm/@plesk/stylelint-config.svg)](https://www.npmjs.org/package/@plesk/stylelint-config)
 
-
 ## Installation
-
+Install a compatible version of stylelint.
 ```
-npm install --save-dev @plesk/stylelint-config
-```
+# with npm:
+npm install --save-dev styleling @plesk/stylelint-config
 
+# with yarn:
+yarn add --dev styleling @plesk/stylelint-config
+```
 
 ## Usage
 
 Put into your `.stylelintrc`
 ```json
 {
-  "extends": "@plesk/stylelint-config"
+  "extends": "@plesk/stylelint-config",
+  "rules": {
+    // Add overrides and additional rules here
+  }
 }
 ```
