@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        'stylelint-config-standard'
+        'stylelint-config-standard',
     ],
     rules: {
         'alpha-value-notation': 'number',
@@ -13,15 +13,15 @@ module.exports = {
         'property-no-vendor-prefix': null,
         'selector-class-pattern': null,
         'selector-id-pattern': null,
-        'selector-not-notation': null
+        'selector-not-notation': null,
     },
     overrides: [
         {
-            files: [ '**/*.less' ],
+            files: ['**/*.less'],
             customSyntax: 'postcss-less',
             rules: {
                 'function-no-unknown': null,
-                'no-invalid-position-at-import-rule': null
+                'no-invalid-position-at-import-rule': null,
             }
         }
     ]

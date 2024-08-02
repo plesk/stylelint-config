@@ -9,10 +9,10 @@ Stylelint configuration for Plesk projects
 Install a compatible version of stylelint.
 ```
 # with npm:
-npm install --save-dev styleling @plesk/stylelint-config
+npm install --save-dev stylelint @plesk/stylelint-config
 
 # with yarn:
-yarn add --dev styleling @plesk/stylelint-config
+yarn add --dev stylelint @plesk/stylelint-config
 ```
 
 ## Usage
