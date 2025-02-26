@@ -9,6 +9,7 @@ module.exports = {
         'import-notation': null,
         'keyframes-name-pattern': null,
         'media-feature-range-notation': null,
+        "media-query-no-invalid": null,
         'no-descending-specificity': null,
         'property-no-vendor-prefix': null,
         'selector-class-pattern': null,
