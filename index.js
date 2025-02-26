@@ -21,6 +21,7 @@ module.exports = {
             customSyntax: 'postcss-less',
             rules: {
                 'function-no-unknown': null,
+                "media-query-no-invalid": null,
                 'no-invalid-position-at-import-rule': null,
             }
         }
