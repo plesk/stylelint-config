@@ -15,6 +15,8 @@ npm install --save-dev stylelint @plesk/stylelint-config
 yarn add --dev stylelint @plesk/stylelint-config
 ```
 
+To lint `.less` files, also install `postcss-less`.
+
 ## Usage
 
 Put into your `.stylelintrc`

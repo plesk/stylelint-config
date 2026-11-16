@@ -1,7 +1,11 @@
 {
   "name": "@plesk/stylelint-config",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "description": "Stylelint shareable config for Plesk projects",
+  "files": [
+    "CHANGELOG.md",
+    "index.js"
+  ],
   "main": "index.js",
   "keywords": [
     "plesk",
@@ -13,11 +17,11 @@
     "url": "git+https://github.com/plesk/stylelint-config.git"
   },
   "dependencies": {
-    "stylelint-config-standard": "^36.0.1"
+    "stylelint-config-standard": "^41.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^16.1.0",
-    "postcss-less": "^6.0.0"
+    "stylelint": "^18.0.0",
+    "postcss-less": "^7.0.0"
   },
   "peerDependenciesMeta": {
     "postcss-less": {
