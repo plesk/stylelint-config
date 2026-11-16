@@ -20,9 +20,11 @@ module.exports = {
             files: ['**/*.less'],
             customSyntax: 'postcss-less',
             rules: {
+                'at-rule-prelude-no-invalid': null,
                 'function-no-unknown': null,
                 "media-query-no-invalid": null,
                 'no-invalid-position-at-import-rule': null,
+                'value-no-invalid': null,
             }
         }
     ]
